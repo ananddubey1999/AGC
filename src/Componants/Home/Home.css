@@ -1,0 +1,147 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 18%, 97%); /* White background color */
+    border: 2px solid white; /* Black border with 2px width */
+    padding: 20px; /* Add padding for content spacing */
+    /* You can add more styles as needed */
+    width: auto;
+  }
+  
+  .content {
+    flex: 1; /* Allows the content to take available space */
+    padding-right: 15px; /* Add right padding between content and image */
+    margin-left: 10%;
+    margin-bottom: 2%;
+  }
+  
+
+.buttons {
+    margin-top: 30px; /* Adjust spacing from content */
+    text-align: center; /* Align buttons to the center */
+    margin-right: 37%;
+  }
+  
+  .custom-button1 {
+    padding: 15px 50px;
+    margin: 0 5px; /* Adjust spacing between buttons */
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff; /* Blue background color */
+    color: #5da8f8; /* Text color */
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-button1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #5da8f8;
+    transition: left 0.3s ease;
+    z-index: -1;
+  }
+  
+  .custom-button1:hover::before {
+    left: 0;
+  }
+  
+  .custom-button1:hover {
+    color: #ffffff; /* Maintain white text color on hover */
+    background-color: #346ef6; /* Change background color on hover */
+  }
+  
+  .custom-button2 {
+    padding: 15px 50px;
+    margin: 0 5px; /* Adjust spacing between buttons */
+    border: none;
+    border-radius: 20px;
+    background-color:#5da8f8; /* Blue background color */
+    color: #ffffff; /* Text color */
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .custom-button2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #5da8f8;
+    transition: left 0.3s ease;
+    z-index: -1;
+  }
+  
+  .custom-button2:hover::before {
+    left: 0;
+  }
+  .custom-button2:hover {
+    background-color: #346ef6; /* Change background color on hover */
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+
+
+  .image-container {
+    flex: 1; /* Allows the image container to take available space */
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: 500px; /* Maintain aspect ratio */
+  }
+  
+  /* Home.css */
+
+/* ... (previous CSS code) */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .home-container {
+      flex-direction: column; /* Change to a column layout for mobile */
+      padding: 15px; /* Adjust padding for mobile */
+    }
+  
+    .content {
+      margin: 0; /* Remove left and bottom margin for mobile */
+    }
+  
+    .buttons {
+      margin: 20px 0; /* Adjust spacing for mobile */
+      text-align: center; /* Center align buttons for mobile */
+      margin-right: 0; /* Remove right margin for mobile */
+    }
+  
+    .custom-button1,
+    .custom-button2 {
+      margin: 10px 0; /* Adjust spacing between buttons for mobile */
+      width: 100%; /* Make buttons full width for mobile */
+      margin-right: 0; /* Remove margin for mobile */
+    }
+  
+    .image-container {
+      margin: 0; /* Remove right and top margin for mobile */
+    }
+  
+    .image-container img {
+      height: auto; /* Allow image to adjust its height */
+    }
+  }
+  

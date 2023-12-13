@@ -1,0 +1,168 @@
+.solutionsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    border: 2px solid white; 
+    margin-left: 12%;
+    margin-right: 10%;
+    height: 440px;
+    margin-top: 1%;
+
+    /* Add any other styles you need for the main container */
+  }
+  
+  /* Content container inside solutionsContainer */
+  .contentContainer {
+    display: flex;
+    flex: 1; /* Allow it to take remaining space */
+    flex-direction: column; 
+    /* Add any other styles you need for the content container */
+
+  }
+  
+  /* Grid container for topics */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns */
+    gap: 20px; /* Gap between topics */
+    height: 20px;
+    width: 30px;
+    /* Add any other styles you need for the grid container */
+  }
+  
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-bottom-right-radius: 17px;
+    height: 50px;
+    width: 200px;
+    position: relative; /* Add relative positioning */
+    padding-left: 5px;
+    /* Add any other styles you need for the topics */
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.5); /* Black shadow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effect */
+  }
+  
+  /* Blue vertical line */
+  .topic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2px; /* Adjust the position of the line */
+    height: 100%;
+    width: 3px;
+    background-color: #346ef6;
+    border-top-left-radius: 17px; /* Rounded border for top left */
+    border-bottom-left-radius: 17px; /* Rounded border for bottom left */
+  }
+  
+  .topic:hover {
+    background-color: #346ef6; /* Change background color on hover */
+    transform: translateX(5px); /* Move the content 5px to the right */
+    color: white;
+  }
+  
+  
+  /* Image container */
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Add margin to create space between image and content */
+    width: 70%; /* Adjust the width as needed */
+    margin-left: 35%; /* Adjust the left margin to position the image */
+    height: 1px;
+    /* Add any other styles you need for the image container */
+  }
+
+  /* Your existing CSS */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+  .solutionsContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    margin: 5% 5%;
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0; /* Adjust margins for mobile */
+  }
+
+  .gridContainer {
+    display: flex;
+    flex-wrap: wrap; /* Change to wrap items */
+    justify-content: space-around; /* Adjust content positioning */
+    gap: 10px; /* Gap between topics */
+    margin-top: 10px; /* Adjust margin for mobile */
+  }
+
+  .topic {
+    width: calc(50% - 10px); /* Adjust width for mobile view */
+    margin-bottom: 10px; /* Adjust margin for mobile */
+  }
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust width for mobile view */
+    margin-top: 20px; /* Adjust margin for mobile */
+  }
+
+  /* Additional styles or adjustments for smaller screens */
+}
+/* Your existing CSS */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .solutionsContainer {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid white;
+      margin: 5% 5%;
+      height: auto; /* Allow height to adjust based on content */
+      padding: 10px; /* Added padding for better spacing */
+    }
+  
+    .contentContainer {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0; /* Adjust margins for mobile */
+    }
+  
+    .gridContainer {
+      display: flex;
+      flex-wrap: wrap; /* Change to wrap items */
+      justify-content: space-around; /* Adjust content positioning */
+      gap: 10px; /* Gap between topics */
+      margin-top: 10px; /* Adjust margin for mobile */
+    }
+  
+    .topic {
+      width: calc(50% - 10px); /* Adjust width for mobile view */
+      margin-bottom: 10px; /* Adjust margin for mobile */
+      height: 50px; /* Reset height */
+    }
+  
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; /* Adjust width for mobile view */
+      margin-top: 20px; /* Adjust margin for mobile */
+      height: auto; /* Reset height */
+    }
+  
+    /* Additional styles or adjustments for smaller screens */
+  }
+  
+  

@@ -1,0 +1,125 @@
+/* Product.css */
+/* Product.css */
+
+.Product {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Add space between items */
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+  
+  .product-item {
+    width: calc(25% - 1px); /* Adjust width and include space */
+    width: 27%;
+    height: 350px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: left;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: space-between;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+    box-sizing: border-box; 
+  }
+  
+  .product-item:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .product-item h2 {
+    margin-top: 0;
+  }
+  
+  .product-item p {
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    display: block;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .more-info {
+    display: none;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .product-item:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .product-item:hover .read-more {
+    color: white;
+  }
+/* Product.css */
+
+/* ... (previous CSS code) */
+
+/* Media query for responsiveness */
+/* Your existing CSS */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .product-container {
+      margin-left: 5%; /* Adjust left margin for mobile */
+      margin-right: 5%; /* Adjust right margin for mobile */
+    }
+  
+    .product-item {
+      width: calc(50% - 20px); /* Adjust width for two items per row with spacing */
+      height: auto; /* Allow height to adjust based on content */
+      margin-bottom: 20px; /* Adjust margin between items for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+      border-radius: 15px; /* Adjust border-radius for smaller screens */
+      box-sizing: border-box; /* Include padding and border in the width */
+      text-align: left; /* Align text to the left */
+    }
+  
+    .product-item h2 {
+      margin-top: 10px; /* Adjust margin top for smaller screens */
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    .product-item p {
+      margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .read-more {
+      display: block;
+      text-align: center;
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-top: 10px; /* Adjust margin top for smaller screens */
+    }
+  
+    .more-info {
+      display: none; /* Hide more-info initially for smaller screens */
+      padding: 10px;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Additional styles or adjustments for smaller screens */
+  }
+  

@@ -1,0 +1,98 @@
+/* General styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* Change this color as needed */
+  padding: 10px 20px;
+  color: #000000; /* Black text color */
+  height: 55px; /* Increased height for better visibility and spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styles for the left section containing the logo */
+.logo-img {
+  width: 170px; /* Adjust the width of the logo */
+  height: 60px; /* Maintain aspect ratio */
+  margin-left: 110%;
+  /* Additional styles for the logo image */
+}
+
+/* Styles for the middle section containing navigation items */
+.mid {
+  display: flex;
+  gap: 20px;
+  cursor: pointer; /* Adjust the spacing between items */
+  /* Add more styles for the middle section */
+  margin-left: 15%;
+}
+
+/* Styles for the right section containing additional options */
+.right {
+  color: #ffffff;
+  gap: 10px; /* Adjust the spacing between items */
+  cursor: pointer;
+  margin-right: 15%;
+  border: 2px solid white; /* Add border with blue color */
+  background-color: #5da8f8; /* Set the background color to blue */
+  padding: 4px 10px; /* Adjust padding for better appearance */
+  border-radius: 20px; /* Add border radius for a rounded look */
+}
+
+/* Styles for each individual item in the right section */
+.right div {
+  padding: 8px; /* Increased padding for better clickability */
+  border-radius: 50%; /* Creates a circular border */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+  cursor: pointer;
+}
+
+/* Hover effect for each individual item in the right section */
+.right div:hover {
+  border-color: #1f1e1e; /* Change the border color on hover */
+}
+/* Additional styles for dropdowns */
+.dropdown select {
+  border: none; /* Remove the border */
+}
+
+
+/* Your existing CSS */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column; /* Change flex direction to column for mobile view */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  .logo-img {
+    margin-left: auto; /* Move logo to the left for mobile */
+    margin-right: auto; /* Move logo to the right for mobile */
+    margin-bottom: 10px; /* Add spacing below logo for mobile */
+  }
+
+  .mid {
+    display: flex; /* Display the middle section for mobile */
+    justify-content: center; /* Center-align items in the middle section */
+    gap: 20px; /* Adjust spacing between items for mobile */
+    margin-bottom: 10px; /* Add spacing below middle section for mobile */
+  }
+
+  .right {
+    display: flex; /* Display the right section as flex for mobile */
+    justify-content: center; /* Center-align items in the right section */
+    align-items: center; /* Center-align items in the right section */
+    gap: 10px; /* Adjust spacing between items for mobile */
+    margin-top: 10px; /* Add spacing above right section for mobile */
+  }
+
+  .right div {
+    padding: 8px; /* Maintain padding for items in the right section */
+    border-radius: 50%; /* Maintain circular border for items in the right section */
+    transition: border-color 0.3s ease; /* Maintain transition effect */
+  }
+
+  /* Additional styles or adjustments for smaller screens */
+}

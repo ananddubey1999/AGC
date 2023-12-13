@@ -1,0 +1,70 @@
+/* Counter.css */
+
+.container {
+    border: 1px solid #7090e7;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: auto; /* Adjust width as needed */
+    height: 250px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url('https://media.istockphoto.com/vectors/technology-background-vector-vector-id1093608482?k=6&m=1093608482&s=170667a&w=0&h=mcSXej74zsuRHjdLR7nMn76AviVaVHy3zjjwFmGE6Vg='); /* Add the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background */
+}
+
+  
+  .counter-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: calc(15% - 5px); /* Adjust width to accommodate the gap */
+    /* border: 1px solid #e0e0e0;
+    border-radius: 5px; */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    color: white;
+    /* background-color: rgba(255, 255, 255, 0.8); Fallback background color for counter */
+  }
+  .counter-content {
+    text-align: center; /* Centers the content horizontally */
+  }
+  
+  .counter-content h4 {
+    margin-top: 5px; /* Adjust the margin as needed */
+  }
+  
+  /* Your existing CSS */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column; /* Change flex direction to column for mobile view */
+      height: auto; /* Allow height to adjust based on content */
+      padding: 10px; /* Adjust padding for mobile */
+      margin: 5px; /* Adjust margin for mobile */
+    }
+  
+    .counter-content {
+      width: calc(100% - 20px); /* Adjust width for full width in mobile */
+      margin: 5px; /* Adjust margin for mobile */
+      padding: 10px; /* Adjust padding for mobile */
+      font-size: 18px; /* Adjust font size for mobile */
+    }
+  
+    .counter-content h4 {
+      margin-top: 3px; /* Adjust margin top for mobile */
+    }
+  
+    /* Additional styles or adjustments for smaller screens */
+  }
+  

@@ -42,11 +42,11 @@ function Navbar() {
           </select>
         </div>
 
-                        <div>Discover Avence</div>
-                        <div>Contact</div>              
+           <div>Discover Avence</div>
+           <div>Contact</div>              
        </div>
        <div className="right">
-                        <div>Get Free Quotes</div>
+          <div>Get Free Quotes</div>
                   
          </div>
     </div>

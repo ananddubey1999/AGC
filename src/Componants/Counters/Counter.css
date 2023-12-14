@@ -46,25 +46,27 @@
   /* Your existing CSS */
 
 /* Media query for responsiveness */
+/* Your existing CSS */
+
+/* Media query for responsiveness */
 @media screen and (max-width: 767px) {
-    .container {
-      flex-direction: column; /* Change flex direction to column for mobile view */
-      height: auto; /* Allow height to adjust based on content */
-      padding: 10px; /* Adjust padding for mobile */
-      margin: 5px; /* Adjust margin for mobile */
-    }
-  
-    .counter-content {
-      width: calc(100% - 20px); /* Adjust width for full width in mobile */
-      margin: 5px; /* Adjust margin for mobile */
-      padding: 10px; /* Adjust padding for mobile */
-      font-size: 18px; /* Adjust font size for mobile */
-    }
-  
-    .counter-content h4 {
-      margin-top: 3px; /* Adjust margin top for mobile */
-    }
-  
-    /* Additional styles or adjustments for smaller screens */
+  .container {
+    flex-direction: column; /* Change flex direction to column for mobile view */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjust padding for mobile */
+    margin: 5px; /* Adjust margin for mobile */
   }
-  
+
+  .counter-content {
+    width: calc(100% - 20px); /* Adjust width for full width in mobile */
+    margin: 5px; /* Adjust margin for mobile */
+    padding: 10px; /* Adjust padding for mobile */
+    font-size: 18px; /* Adjust font size for mobile */
+  }
+
+  .counter-content h4 {
+    margin-top: 3px; /* Adjust margin top for mobile */
+  }
+
+  /* Additional styles or adjustments for smaller screens */
+}

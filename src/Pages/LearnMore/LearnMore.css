@@ -1,0 +1,47 @@
+/* LearnMore.css */
+
+/* Main container styles */
+.learn-more-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main section styles */
+  .main-section {
+    margin-bottom: 40px;
+  }
+  
+  .main-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .main-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Additional information section styles */
+  .additional-info {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .additional-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .additional-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  

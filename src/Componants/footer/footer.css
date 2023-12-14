@@ -156,3 +156,44 @@
   
   /* footer.css */
 /* Existing styles for the footer */
+/* Add this CSS to your styles file or component */
+@media screen and (max-width: 767px) {
+    .footerContainer {
+      padding: 10px 5px; /* Adjust padding for smaller screens */
+    }
+  
+    .firstPart {
+      margin-bottom: 8%; /* Adjust margin for the first part */
+    }
+  
+    .secondPart {
+      margin-bottom: 30%; /* Adjust margin for the second part */
+    }
+  
+    .thirdPart {
+      margin-bottom: 42%; /* Adjust margin for the third part */
+    }
+  
+    .fourthPart {
+      margin-bottom: 18%; /* Adjust margin for the fourth part */
+    }
+  
+    .logo {
+      margin-right: 95%; /* Adjust margin for the logo */
+    }
+  
+    /* Update the placeholder width for responsiveness */
+    .placeholder {
+      width: 90%; /* Adjust the width as needed for smaller screens */
+      max-width: 350px; /* Set maximum width for the placeholder */
+    }
+  
+    .subscribeInput {
+      margin-top: 8%; /* Adjust margin for the subscribe input */
+    }
+  
+    .subscribeButton {
+      margin-top: 8%; /* Adjust margin for the subscribe button */
+    }
+  }
+  

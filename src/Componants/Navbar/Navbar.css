@@ -8,7 +8,7 @@
   color: #000000; /* Black text color */
   height: 50px; /* Increased height for better visibility and spacing */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  position: fixed; /* Fix the navbar at the top */
+    position: fixed; /* Fix the navbar at the top */
   top: 0; /* Position the navbar at the top of the viewport */
   width: 100%; /* Occupy the full width of the viewport */
   z-index: 1000;
@@ -59,7 +59,6 @@
 .dropdown select {
   border: none; /* Remove the border */
 }
-
 
 
 /* Your existing CSS */

@@ -6,8 +6,12 @@
   background-color: #ffffff; /* Change this color as needed */
   padding: 10px 20px;
   color: #000000; /* Black text color */
-  height: 55px; /* Increased height for better visibility and spacing */
+  height: 50px; /* Increased height for better visibility and spacing */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Position the navbar at the top of the viewport */
+  width: 100%; /* Occupy the full width of the viewport */
+  z-index: 1000;
 }
 
 /* Styles for the left section containing the logo */
@@ -55,6 +59,7 @@
 .dropdown select {
   border: none; /* Remove the border */
 }
+
 
 
 /* Your existing CSS */

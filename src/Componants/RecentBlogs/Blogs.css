@@ -1,0 +1,73 @@
+/* Blogs.css */
+
+.blogsContainer {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .framesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .frame {
+    width: calc(33% - 20px);
+    border: 1px solid #fcf9f9;
+    border-radius: 2%;
+    background-color: #fcf9f9;
+    padding: 2px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 2%;
+  }
+  
+  .frame p {
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 0.3s ease; /* Adding transition effect */
+    cursor: pointer;
+  }
+  
+  /* Change paragraph text color to blue on hover */
+  .frame p:hover {
+    color: blue;
+  }
+  
+  /* Responsive adjustments for mobile */
+  @media (max-width: 768px) {
+    .framesContainer {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .frame {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .framesContainer {
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+  
+    .frame {
+      width: calc(100% - 20px);
+    }
+  }
+  

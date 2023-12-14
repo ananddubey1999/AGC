@@ -1,0 +1,158 @@
+/* Footer.css */
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    max-width: 100%; /* Limit the maximum width */
+    overflow: hidden;
+  }
+  
+  .footerPart {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: white;
+  }
+  
+  /* Add specific styling for each part here */
+  
+  .firstPart {
+    /* Styles for the first part */
+    margin-bottom: 6%;
+  }
+  
+  .secondPart {
+    /* Styles for the second part */
+    margin-bottom: 28%;
+    
+  }
+  
+  .thirdPart {
+    /* Styles for the third part */
+    margin-bottom: 40%;
+  }
+  
+  .fourthPart {
+    /* Styles for the fourth part */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+  }
+  
+  .logo {
+    /* Styles for the logo */
+    margin-right: 98%;
+  }
+  
+/* Add this CSS to your styles file or component */
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -5%;
+}
+
+/* Styles for individual icons */
+.socialIcon {
+  color: rgb(72, 143, 243);
+  background-color: #f2efef; /* Background color for the circle */
+  border-radius: 50%; /* Makes it a circle */
+  padding: 10px; /* Adjust the padding as needed */
+  margin: 1px; /* Adjust the margin for spacing */
+  transition: background-color 0.3s ease; /* Transition effect for hover */
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+  
+  .verticalTitles {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .placeholder {
+    /* Styles for the placeholder and subscribe button */
+  }
+  
+  .serviceList {
+    list-style: none;
+    padding-left: 0;
+   
+  }
+  
+  .serviceList li {
+    /* Additional styles for list items if needed */
+    cursor: pointer;
+  }
+
+  /* Add this CSS to your styles file or component */
+.quickLinksList {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .quickLinksList li {
+    /* Additional styles for list items if needed */
+    cursor: pointer;
+  }
+
+  /* Add this CSS to your styles file or component */
+.contactList {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contactList li {
+    /* Additional styles for list items if needed */
+    cursor: pointer;
+  }
+  
+/* Add this CSS to your styles file or component */
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px; /* Adjust the width as needed */
+   
+    
+  }
+  
+  .subscribeInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-start-start-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 25px; /* Increase the height of the input area */
+    margin-right: 0; /* Remove margin between input and button */
+    border-end-end-radius: none;
+    margin-top: 10%;
+    
+  }
+  
+  .subscribeButton {
+    padding: 8px 20px;
+    border: none;
+    border-end-end-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #346ef6; /* Blue color for the button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect */
+    height: 42px; /* Increase the height of the button */
+    margin-top: 10%;
+  }
+  
+  .subscribeButton:hover {
+    background-color: #2559c1; /* Darker blue on hover */
+  }
+  
+  /* footer.css */
+/* Existing styles for the footer */

@@ -8,6 +8,8 @@ import Solutions from './Componants/SolutionsOffering/Solutions';
 // import Client from './Componants/Client/Client';
 import TrustedClients from './Componants/TrustedClients/TrustedClients';
 import Contact from './Componants/ContactUs/Contact';
+import Blogs from './Componants/RecentBlogs/Blogs';
+import Footer from './Componants/footer/footer';
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,8 @@ function App() {
    {/* <Client/> */}
    <TrustedClients/>
    <Contact/>
+   <Blogs/>
+  <Footer/>
 
   
     </div>

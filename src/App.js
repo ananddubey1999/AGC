@@ -4,6 +4,7 @@ import './App.css';
 import MainHome from './Pages/MainHome';
 import Contact from './Pages/Contacts/Contact';
 import LearnMore from './Pages/LearnMore/LearnMore';
+import GetFreeQuotes from './Pages/Get Free Quotes/GetFreeQuotes';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<MainHome />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/learn-more" element={<LearnMore />} />
+          <Route path="/get-free-quotes" element={<GetFreeQuotes />} />
           {/* Define more routes as needed */}
         </Routes>
       </div>

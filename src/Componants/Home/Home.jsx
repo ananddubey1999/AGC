@@ -15,7 +15,7 @@ function Home() {
         <div className="buttons">
           {/* Link to the LearnMore page */}
           <Link to="/learn-more">
-            <button className="custom-button1">Learn More</button>
+            <button className="custom-button1">Read More</button>
           </Link>
           {/* Link to the Contact page */}
           <Link to="/contact">

@@ -43,6 +43,7 @@
   
   .product-item p {
     margin-bottom: 15px;
+    overflow: hidden;
   }
   
   .read-more {
@@ -84,7 +85,7 @@
     }
   
     .product-item {
-      width: calc(50% - 20px); /* Adjust width for two items per row with spacing */
+      width: 100%; /* Adjust width for two items per row with spacing */
       height: auto; /* Allow height to adjust based on content */
       margin-bottom: 20px; /* Adjust margin between items for smaller screens */
       padding: 15px; /* Adjust padding for smaller screens */
@@ -100,7 +101,7 @@
   
     .product-item p {
       margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
-      font-size: 14px; /* Adjust font size for smaller screens */
+      font-size: 16px; /* Adjust font size for smaller screens */
     }
   
     .read-more {

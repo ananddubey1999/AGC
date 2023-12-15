@@ -61,12 +61,10 @@
     width: calc(100% - 20px); /* Adjust width for full width in mobile */
     margin: 5px; /* Adjust margin for mobile */
     padding: 10px; /* Adjust padding for mobile */
-    font-size: 18px; /* Adjust font size for mobile */
+    font-size: 16px; /* Adjust font size for mobile */
   }
 
-  .counter-content h4 {
-    margin-top: 3px; /* Adjust margin top for mobile */
-  }
+
 
   /* Additional styles or adjustments for smaller screens */
 }

@@ -141,7 +141,7 @@
     }
   
     .image-container img {
-      height: auto; /* Allow image to adjust its height */
+      height: 300px; /* Allow image to adjust its height */
     }
   }
   

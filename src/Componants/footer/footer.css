@@ -129,7 +129,7 @@
     border: 1px solid #ccc;
     border-start-start-radius: 15px;
     border-bottom-left-radius: 15px;
-    height: 25px; /* Increase the height of the input area */
+    height: 16px; /* Increase the height of the input area */
     margin-right: 0; /* Remove margin between input and button */
     border-end-end-radius: none;
     margin-top: 10%;
@@ -148,6 +148,7 @@
     transition: background-color 0.3s ease; /* Transition effect */
     height: 42px; /* Increase the height of the button */
     margin-top: 10%;
+    
   }
   
   .subscribeButton:hover {
@@ -160,8 +161,12 @@
 @media screen and (max-width: 767px) {
     .footerContainer {
       padding: 10px 5px; /* Adjust padding for smaller screens */
+      width: auto;
     }
   
+    .footerPart {
+      width: auto;
+    }
     .firstPart {
       margin-bottom: 8%; /* Adjust margin for the first part */
     }
@@ -195,5 +200,57 @@
     .subscribeButton {
       margin-top: 8%; /* Adjust margin for the subscribe button */
     }
+    .p{
+      font-size: 7px;
+      margin-bottom: 12px;
+    }
+    .serviceList li,
+    .quickLinksList li,
+    .contactList li {
+      /* Adjust font size, margin, padding, etc. for smaller screens */
+      font-size: 10px;
+      margin-bottom: 12px;
+      /* Add more styles as needed */
+    }
+  
+    .placeholder {
+      width: 100%; /* Adjust width for smaller screens */
+      max-width: 100%; /* Set maximum width */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .subscribeInput {
+      width: 80%; /* Adjust width for the input */
+      margin-top: 10px; /* Adjust top margin */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+    }
+  
+    .subscribeButton {
+      width: 90%; /* Adjust width for the button */
+      margin-top: 10px; /* Adjust top margin */
+      padding: 6px 16px;
+      border: none;
+      border-radius: 15px;
+      background-color: #346ef6; /* Blue color for the button */
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* Transition effect */
+    }
+  
+    .subscribeButton:hover {
+      background-color: #2559c1; /* Darker blue on hover */
+    }
   }
   
+
+
+  @media screen and (max-width: 417px) {
+
+    .footerPart {
+      width: auto;
+    }
+  }

@@ -79,48 +79,7 @@
     /* Add any other styles you need for the image container */
   }
 
-  /* Your existing CSS */
 
-/* Media query for responsiveness */
-@media screen and (max-width: 767px) {
-  .solutionsContainer {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid white;
-    margin: 5% 5%;
-    height: auto; /* Allow height to adjust based on content */
-  }
-
-  .contentContainer {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0; /* Adjust margins for mobile */
-  }
-
-  .gridContainer {
-    display: flex;
-    flex-wrap: wrap; /* Change to wrap items */
-    justify-content: space-around; /* Adjust content positioning */
-    gap: 10px; /* Gap between topics */
-    margin-top: 10px; /* Adjust margin for mobile */
-  }
-
-  .topic {
-    width: calc(50% - 10px); /* Adjust width for mobile view */
-    margin-bottom: 10px; /* Adjust margin for mobile */
-  }
-
-  .imageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Adjust width for mobile view */
-    margin-top: 20px; /* Adjust margin for mobile */
-  }
-
-  /* Additional styles or adjustments for smaller screens */
-}
-/* Your existing CSS */
 
 /* Media query for responsiveness */
 @media screen and (max-width: 767px) {
@@ -137,18 +96,21 @@
       display: flex;
       flex-direction: column;
       margin: 10px 0; /* Adjust margins for mobile */
+      width: 100%;
     }
   
     .gridContainer {
-      display: flex;
+    display: flex;
       flex-wrap: wrap; /* Change to wrap items */
       justify-content: space-around; /* Adjust content positioning */
       gap: 10px; /* Gap between topics */
       margin-top: 10px; /* Adjust margin for mobile */
+      width: auto;
+      height: inherit;
     }
   
     .topic {
-      width: calc(50% - 10px); /* Adjust width for mobile view */
+      width: calc(90% - 10px); /* Adjust width for mobile view */
       margin-bottom: 10px; /* Adjust margin for mobile */
       height: 50px; /* Reset height */
     }
@@ -161,8 +123,55 @@
       margin-top: 20px; /* Adjust margin for mobile */
       height: auto; /* Reset height */
     }
+    .img{
+      height: 350px;
+      width: fit-content;
+      margin-right: 90%;
+    }
   
     /* Additional styles or adjustments for smaller screens */
   }
-  
+
+/* Your existing styles for screens wider than 1000px */
+/* ... (your existing styles for screens wider than 1000px) ... */
+
+/* Styles for screens between 800px and 1000px */
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .solutionsContainer {
+    /* Adjusted styles for solutionsContainer between 800px and 1000px */
+    margin: 3% 5%; /* Adjusted margin */
+    padding: 8px; /* Adjusted padding */
+  }
+
+  .contentContainer {
+    /* Adjusted styles for contentContainer between 800px and 1000px */
+    margin: 8px 0; /* Adjusted margin */
+  }
+
+  .gridContainer {
+    /* Adjusted styles for gridContainer between 800px and 1000px */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 40px; /* Adjusted gap between topics */
+  }
+
+  .topic {
+    /* Adjusted styles for topic between 800px and 1000px */
+    width: calc(150% - 10px); /* Adjusted width for two-column layout */
+  }
+
+  .imageContainer {
+    /* Adjusted styles for imageContainer between 800px and 1000px */
+    margin-top: 60px; /* Adjusted margin */
+  }
+
+  .img {
+    /* Adjusted styles for img between 800px and 1000px */
+    height: 300px; /* Adjusted height */
+    width: auto; /* Allow width to adjust */
+    margin-right: 0; /* Reset margin */
+  }
+
+  /* Additional styles or adjustments for screens between 800px and 1000px */
+}
+
   

@@ -23,7 +23,7 @@ function Solutions() {
         {/* Image section */}
        <div className="imageContainer">
         {/* Your image content */}
-        <img src="./Img/choose-1.png" alt="Image 1" />
+        <img src="./Img/choose-1.png" alt="Image 1"  className='img'/>
       </div>
       </div>
     </div>

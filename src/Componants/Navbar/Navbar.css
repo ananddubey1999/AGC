@@ -100,3 +100,47 @@
 
   /* Additional styles or adjustments for smaller screens */
 }
+
+/* Your existing CSS */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column; /* Change flex direction to column for mobile view */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  .logo-img {
+    margin-left: auto; /* Move logo to the left for mobile */
+    margin-right: auto; /* Move logo to the right for mobile */
+    margin-bottom: 10px; /* Add spacing below logo for mobile */
+    width: 150px; /* Adjust the logo width for mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .mid {
+    display: flex; /* Display the middle section for mobile */
+    justify-content: center; /* Center-align items in the middle section */
+    gap: 20px; /* Adjust spacing between items for mobile */
+    margin-bottom: 10px; /* Add spacing below middle section for mobile */
+    margin-left: 0; /* Reset the margin */
+  }
+
+  .right {
+    display: flex; /* Display the right section as flex for mobile */
+    justify-content: center; /* Center-align items in the right section */
+    align-items: center; /* Center-align items in the right section */
+    gap: 10px; /* Adjust spacing between items for mobile */
+    margin-top: 10px; /* Add spacing above right section for mobile */
+    margin-right: 0; /* Reset the margin */
+  }
+
+  .right div {
+    padding: 8px; /* Maintain padding for items in the right section */
+    border-radius: 50%; /* Maintain circular border for items in the right section */
+    transition: border-color 0.3s ease; /* Maintain transition effect */
+  }
+
+  /* Additional styles or adjustments for smaller screens */
+}

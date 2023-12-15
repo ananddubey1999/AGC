@@ -108,11 +108,6 @@
     height: 500px; /* Maintain aspect ratio */
   }
   
-  /* Home.css */
-
-/* ... (previous CSS code) */
-
-/* Media query for responsiveness */
 @media screen and (max-width: 767px) {
     .home-container {
       flex-direction: column; /* Change to a column layout for mobile */

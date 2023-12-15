@@ -70,7 +70,7 @@
   background-color: #555; /* Change background color on hover */
 }
 
-  
+
   .verticalTitles {
     display: flex;
     flex-direction: column;
@@ -155,9 +155,7 @@
     background-color: #2559c1; /* Darker blue on hover */
   }
   
-  /* footer.css */
-/* Existing styles for the footer */
-/* Add this CSS to your styles file or component */
+
 @media screen and (max-width: 767px) {
     .footerContainer {
       padding: 10px 5px; /* Adjust padding for smaller screens */
@@ -180,7 +178,9 @@
     }
   
     .fourthPart {
-      margin-bottom: 18%; /* Adjust margin for the fourth part */
+       /* Adjust margin for the fourth part */
+      width: 90%; /* Adjust width for smaller screens */
+      margin-bottom: 10px;
     }
   
     .logo {
@@ -209,12 +209,12 @@
     .contactList li {
       /* Adjust font size, margin, padding, etc. for smaller screens */
       font-size: 10px;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       /* Add more styles as needed */
     }
   
     .placeholder {
-      width: 100%; /* Adjust width for smaller screens */
+      width: 90%; /* Adjust width for smaller screens */
       max-width: 100%; /* Set maximum width */
       display: flex;
       flex-direction: column;
@@ -244,10 +244,9 @@
     .subscribeButton:hover {
       background-color: #2559c1; /* Darker blue on hover */
     }
+    
   }
   
-
-
   @media screen and (max-width: 417px) {
 
     .footerPart {

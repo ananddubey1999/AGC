@@ -1,5 +1,3 @@
-/* Counter.css */
-
 .container {
     border: 1px solid #7090e7;
     border-radius: 5px;
@@ -8,7 +6,7 @@
     justify-content: space-between;
     gap: 10px;
     width: auto; /* Adjust width as needed */
-    height: 250px;
+    height: 300px;
     margin-left: 2%;
     margin-right: 2%;
     background-image: url('https://media.istockphoto.com/vectors/technology-background-vector-vector-id1093608482?k=6&m=1093608482&s=170667a&w=0&h=mcSXej74zsuRHjdLR7nMn76AviVaVHy3zjjwFmGE6Vg='); /* Add the path to your image */
@@ -17,7 +15,6 @@
     background-attachment: fixed; /* Fixed background */
 }
 
-  
   .counter-content {
     display: flex;
     justify-content: center;
@@ -42,12 +39,6 @@
   .counter-content h4 {
     margin-top: 5px; /* Adjust the margin as needed */
   }
-  
-  /* Your existing CSS */
-
-/* Media query for responsiveness */
-/* Your existing CSS */
-
 /* Media query for responsiveness */
 @media screen and (max-width: 767px) {
   .container {
